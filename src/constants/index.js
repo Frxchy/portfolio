@@ -1,7 +1,7 @@
-import project1 from "../assets/projects/academicplanner.png";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "/UAP.png";
+import project2 from "/C2Cupdated.png";
+import project3 from "/ucsc.png";
+import project4 from "/Baskin.png";
 
 export const HERO_CONTENT = `I am a recent graduate from the University of California, Santa Cruz. With 3 years of hands-on experience, I have cultivated my skills in full stack develpment working with technologies like React, Laravel, Vue.js, Javascript, and MySQL. I also have several years of experience working with hardware using verilog, C/C++, and Rust. My goal is to leverage my skills in order to push for innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -12,6 +12,7 @@ export const EXPERIENCES = [
     year: "2023 - 2024",
     role: "Group Tutor/Reader",
     company: "UCSC Baskin School of Engineering",
+    logo: project4,
     description: `Conducted weekly sessions for a cohort of 20 students, offering in-depth project debugging and assignment guidance. Assessed and graded weekly assignments and projects for 50+ students, contributing to an increase in overall class performance and academic retention`,
     technologies: ["Javascript", "Gdevelop", "HTML", "CSS"],
   },
